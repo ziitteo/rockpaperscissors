@@ -59,3 +59,36 @@
   font-size: 24px;
   height: 40px;
 }
+
+/* 반응형 미디어쿼리 */
+/* 879px 이하일 때 */
+@media (max-width: 879px) {
+  .box-container {
+    width: 300px;
+  }
+
+  .box-image {
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .box-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+}
+
+/* 673px 이하일 때 */
+@media (max-width: 673px) {
+  .box-container {
+    width: 200px;
+  }
+
+  .box-image {
+    width: 150px;
+  }
+
+  .box-title {
+    font-size: 24px;
+  }
+}
